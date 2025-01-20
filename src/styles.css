@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h3{
+    background-color: navy; text-align: center; color: white;
+}
+/* styles.css CSS / will be used for both components */
+.sheridan-icon {
+    background-image: url('./assets/images/sheridan.jpg');
+    background-size: cover;
+  }
+  
+  .iconsize { transform: scale(2);}
+  
+  .cardFormat { text-align: center; color: navy;}
+  
+  @media screen and (orientation: landscape) {
+    .imagesizes {width: 450px; height: 90px;}  
+  }
+  @media screen and (orientation: portrait) {
+    .imagesizes {width: 300px; height: 450px;}  
+  }
+  
